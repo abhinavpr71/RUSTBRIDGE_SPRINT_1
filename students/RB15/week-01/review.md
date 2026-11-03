@@ -11,6 +11,8 @@
 
 - [`6a00c9b`](https://github.com/0xajm/RUSTBRIDGE_SPRINT_1/commit/6a00c9b) - **`E01.1`** Write the brief and context map
 - [`7877db8`](https://github.com/0xajm/RUSTBRIDGE_SPRINT_1/commit/7877db8) - **`T01.1`** Run a safe event inspector
+- [`3e31b47`](https://github.com/0xajm/RUSTBRIDGE_SPRINT_1/commit/3e31b47) - **`E01.2`** Complete the Git and review loop
+- [`94cc788`](https://github.com/0xajm/RUSTBRIDGE_SPRINT_1/commit/94cc788) - **`P01.1`** Trace values and one decision
 
 ---
 
