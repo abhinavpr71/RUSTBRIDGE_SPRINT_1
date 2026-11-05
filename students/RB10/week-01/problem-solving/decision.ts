@@ -4,8 +4,10 @@
 // Case D: amount_minor = 0, captured = false
 // Case E: amount_minor = "2500", captured = true
 
-
-function getPaymentLabel(amount_minor: number | string , captured: boolean): string {
+function getPaymentLabel(
+  amount_minor: number | string,
+  captured: boolean,
+): string {
   if (amount_minor === 0) {
     return 'zero amount';
   } else if (captured === true) {
@@ -15,9 +17,8 @@ function getPaymentLabel(amount_minor: number | string , captured: boolean): str
   }
 }
 
-
-console.log(getPaymentLabel(2500,true))
-console.log(getPaymentLabel(0,true))
-console.log(getPaymentLabel(2500,false))
-console.log(getPaymentLabel(0,false))
-console.log(getPaymentLabel('2500',true))
+console.log(getPaymentLabel(2500, true));
+console.log(getPaymentLabel(0, true));
+console.log(getPaymentLabel(2500, false));
+console.log(getPaymentLabel(0, false));
+console.log(getPaymentLabel('2500', true));
