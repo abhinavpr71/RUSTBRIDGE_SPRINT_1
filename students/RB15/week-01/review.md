@@ -18,5 +18,5 @@
 
 ### Peer Review
 
-- **Change reviewed:** [RB7 Week 1 brief (PR #14)](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/14)
+- **Change reviewed:** [RB7 Week 1 brief (PR #17)](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/17)
 - **Review note:** RB7 clearly listed what is out of scope for the first version.
