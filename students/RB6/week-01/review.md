@@ -1,73 +1,20 @@
-diff --git a/students/RB6/week-01/typescript/NOTES.md b/students/RB6/week-01/typescript/NOTES.md
+# Review 
 
-deleted file mode 100644
+## Branch Link 
+[main](https://github.com/notg0d/RUSTBRIDGE_SPRINT_1/tree/main)
 
-index e3b229e..0000000
+## Pull Request
+[Task Week 1](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/8)
 
---- a/students/RB6/week-01/typescript/NOTES.md
+## Commits 
 
-+++ /dev/null
+[E01.1](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/8/changes/7f6702e25aed66daed27d52cc7f45575c456034c)
+[T01.1](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/8/changes/d5b48a3dda6643fa6a9e47e03e81d6fac6fbff1e)
+[E01.2]()
+[P01.1](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/8/changes/0363e9a99641adcffad07fc2658085b1d5a54c66)
 
-@@ -1,15 +0,0 @@
+## Peer Review 
 
-```# T01.1:
+[PR Link](https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/13)
 
-### Command :
-
-> npm run practice -- students/RB6/week-01/typescript/inspector.ts
-
-### Output :
-
-->npm notice run backend-engineering-sprint-1@1.0.0 practice
-->npm notice run tsx students/RB6/week-01/typescript/inspector.ts
-->Event ID: sandbox_1
-->Event Type: payment.captured
-->Amount: 15000
-->Event Summary: payment.captured of amount 15000 INR at 2026-01-01T10:00:00.000Z by event ID sandbox_1
-```
-
-\ No newline at end of file
-
-diff --git a/students/RB6/week-01/typescript/inspector.ts b/students/RB6/week-01/typescript/inspector.ts
-
-deleted file mode 100644
-
-index ec44144..0000000
-
---- a/students/RB6/week-01/typescript/inspector.ts
-
-+++ /dev/null
-
-@@ -1,28 +0,0 @@
-
-```
-export interface Event {
-  readonly eventId: string;
-  readonly eventType: string;
-  readonly amount: number;
-  readonly currency: string;
-  readonly timestamp: string;
-}
-
-const e1: Event = {
-  eventId: 'sandbox_1',
-  eventType: 'payment.captured',
-  amount: 15000,
-  currency: 'INR',
-  currency: 'INR',
-  timestamp: '2026-01-01T10:00:00.000Z',
-};
-
-export function logPaymentEvent(event: Event): void {
-  console.log(`Event ID: ${event.eventId}`);
-  console.log(`Event Type: ${event.eventType}`);
-  console.log(`Amount: ${event.amount}`);
-}
-
-export function getPaymentEventSummary(event: Event): string {
-  return `Event Summary: ${event.eventType} of amount ${event.amount} ${event.currency} at ${event.timestamp} by event ID ${event.eventId}`;
-}
-
-logPaymentEvent(e1);
-console.log(getPaymentEventSummary(e1));
-```
+- The 'brief.md' specified all of the user actions, non goals and successfully mentioned what a successful demo should function like.
