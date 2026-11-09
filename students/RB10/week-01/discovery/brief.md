@@ -38,9 +38,9 @@ The **Merchant support operators** who checks the payment events.
 ```mermaid
    flowchart LR
     User -->|Logs in| UI[ReactInterface/Dashboard]
-    Simulator -->|Sends payment notify| API[Merchant Desk API]
-    UI -->|Sign in and Event Requests| API
-    API -->|Validates & stores| DB[(PostgreSQL DB)]
-    DB -->|Returns records| API
-    API -->|Owned event data or safe errors| UI
+    Simulator -->|Sends payment notify| api[data and security boundary]
+    UI -->|Sign in and Event Requests| api
+    api -->|Validates & stores| DB[(PostgreSQL DB)]
+    DB -->|Returns records| api
+    api -->|Owned event data or safe errors| UI
 ```
