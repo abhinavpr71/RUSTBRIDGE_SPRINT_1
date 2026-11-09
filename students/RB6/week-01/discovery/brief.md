@@ -25,7 +25,7 @@ graph LR
     User[User]
     ReactInterface["React \nInterface"]
     PostgreSQL["PostgreSQL \nDB"]
-    MerchantAPI["Merchant Desk \nAPI"]
+    MerchantAPI["Merchant Desk \nAPI \n(Data and Security Boundry)"]
     Simulator["Simulator"]
 
 User-- Login -->ReactInterface
