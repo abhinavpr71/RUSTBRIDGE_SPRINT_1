@@ -20,4 +20,4 @@
 
 **PR LINK :** `https://github.com/StartwithDot/RUSTBRIDGE_SPRINT_1/pull/15`
 
-**Choice they made :** Listed out the things that a successful demo would show in concise manner 
+**Choice they made :** Listed out the things that a successful demo would show in a concise format
