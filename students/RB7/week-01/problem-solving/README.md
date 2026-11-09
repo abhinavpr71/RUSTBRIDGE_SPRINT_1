@@ -44,4 +44,5 @@ console.log(returnLabel(amount_minor,capture))
 
 ## Prediction
 
-My prediction for the `case E` was partially correct.I predicted that there would be a type check error since `amount_minor` is a `number` and we tried to assign it with a string which will throw a type error while typechecking however the function returns "captured" label on execution since the captured flag is true and during the run using practice script it uses tsx which wont perform any type checks.
+My prediction for the `case E` was partially correct.I predicted that there would be a type check error since `amount_minor` is a `number` and we tried to assign it with a string which will throw a type error while typechecking.
+Since we are using strict equality `===` it compare both the value and type of the operands.For the case E the value of amount_minor is a string and it is compared against a number so it fails and move on to the subsequent decision branch which checks whether the capture flag is true, here in this case it's true and returned the `captured` label
