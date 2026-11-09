@@ -6,7 +6,7 @@ interface paymentEvent {
   occurred_at: string;
 }
 
-let paymentEvent1 = {
+let paymentEvent1: paymentEvent = {
   provider_event_id: 'sandbox_1',
   event_type: 'payment.captured',
   amount_minor: 15000,
